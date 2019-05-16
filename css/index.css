@@ -1,0 +1,87 @@
+.imgtitle {
+
+margin-left: 100px;
+margin-top: 20px;
+margin-bottom: 30px; 
+}
+
+.retour {
+
+  left:94%;
+  top: 89%;
+  position:fixed;
+}
+
+.space{
+
+  padding-top: 500px;
+  padding-bottom: 500px;
+}
+
+.tab {
+	margin-left:30px;
+	
+	}
+	
+.lilspace {
+	
+	margin-bottom: 75px;
+}
+
+.card {
+
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+
+.divpath {
+
+  display: flex;
+  align-items: center;
+
+}
+
+.welcometxt{
+  flex: 1;
+margin-right:20px;
+margin-left:20px;
+}
+
+.normaltxt{
+  font-size: 25px;
+}
+
+
+
+.loisircard{
+  padding-left: 0px;
+  padding-top:0px;
+	padding-right:0px;
+  border-color: black;
+  background-color: black ;
+  
+  
+
+}
+
+.bordercard{
+
+  border:2px solid;
+  margin-bottom: 15px;
+  margin-top:15px;
+}
+
+
+
+
+
+@media screen and (max-width: 980px) {
+
+.bouton{
+	visibility:hidden;
+	
+}
+}
