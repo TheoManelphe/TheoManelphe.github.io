@@ -79,6 +79,11 @@ margin-left:20px;
   margin-top: 4px;
 }
 
+.divlghome{ 
+	height : 64px;
+	left : 0rem !important;
+}
+
 
 
 @media screen and (max-width: 980px) {
