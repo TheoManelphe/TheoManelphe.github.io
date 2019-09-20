@@ -93,3 +93,78 @@ margin-left:20px;
 	
 }
 }
+
+
+#mainIndex {
+	display: flex;
+	flex-direction:row;
+}
+
+#imageGauche{
+width: 50vw;	
+height: 100vh;
+background-image: url(../img/golf.jpg);
+background-size: cover;
+	
+}
+#imageDroite{
+width: 50vw;
+height: 100vh;
+background-image: url(../img/gege.jpg);
+background-size: cover;
+}
+
+#messageBienvenue{
+	position: absolute;
+	width:70vw;
+	top:0;
+	left:50vw;
+	transform:translateX(-50%);
+	background-color:white;
+	font-size:2.5rem;
+	padding:1.5rem;
+	text-align:center;
+	border-radius:0 0 5px 5px;
+	font-family: 'Montserrat', sans-serif;
+	animation: 1.2s ease-out 0s 1 loadAnimation2;
+	
+}
+
+.boutonIndex {
+	position: absolute;
+	bottom:15vh;
+	animation: 1.2s ease-out 0s 1 loadAnimation;
+	opacity: 1;
+}
+
+#boutonGauche {
+	left:25vw;
+	transform:translateX(-50%);
+}
+
+#boutonDroite {
+	right:25vw;
+	transform:translateX(50%);
+}
+
+@keyframes loadAnimation {
+  0% {
+    bottom:0vh;
+	opacity: 0;
+  }
+  100% {
+    bottom:15vh;
+	opacity: 1;
+  }
+}
+
+@keyframes loadAnimation2 {
+  0% {
+   
+	opacity: 0.5;
+  }
+  100% {
+    
+	opacity: 1;
+  }
+}
