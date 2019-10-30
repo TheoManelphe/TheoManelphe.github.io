@@ -103,14 +103,14 @@ margin-left:20px;
 #imageGauche{
 width: 50vw;	
 height: 100vh;
-background-image: url(../img/wpd.jpg);
+background-image: url(../img/idxInfo.jpg);
 background-size: cover;
 	
 }
 #imageDroite{
 width: 50vw;
 height: 100vh;
-background-image: url(../img/wpw.jpg);
+background-image: url(../img/idxGuitare.jpg);
 background-size: cover;
 }
 
@@ -133,7 +133,7 @@ background-size: cover;
 .boutonIndex {
 	position: absolute;
 	bottom:15vh;
-	animation: 1.2s ease-out 0s 1 loadAnimation;
+	animation: 1.5s ease-out 0s 1 loadAnimation;
 	opacity: 1;
 }
 
