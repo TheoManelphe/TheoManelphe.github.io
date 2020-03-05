@@ -44,6 +44,16 @@ margin-bottom: 30px;
 
 }
 
+.butLien {
+	margin:3% 1% 1% 0%;
+}
+
+.imgIllu{
+	margin : 4% 0%;
+	font-style: italic;
+	font-size: 80%;
+}
+
 .welcometxt{
   flex: 1;
 margin-right:20px;
